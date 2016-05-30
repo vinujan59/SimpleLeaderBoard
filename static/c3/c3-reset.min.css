@@ -1,0 +1,76 @@
+.c3 svg {
+    font: 'Open Sans'
+}
+
+.c3-area {
+    opacity: 0.2 !important;
+}
+
+.c3 line, .c3 path {
+    fill: none;
+    stroke: #E4E4E4
+}
+
+.c3-axis-y .domain {
+    display: none
+}
+
+.c3-axis, .c3-axis-x, .c3-axis-y {
+    opacity: .7
+}
+
+.c3-tooltip-container {
+    z-index: 10
+}
+
+.c3-tooltip {
+    opacity: .7
+}
+
+.c3-tooltip tr {
+    border: none
+}
+
+.c3-tooltip th {
+    background-color: #fff;
+    color: #000
+}
+
+.c3-tooltip td {
+    border-left: none
+}
+
+.c3-grid line {
+    stroke: #EEE
+}
+
+.c3-grid text {
+    fill: #EEE
+}
+
+.c3-xgrid, .c3-ygrid {
+    stroke-dasharray: none
+}
+
+.c3-defocused {
+    opacity: .6 !important
+}
+
+/*.insights-no-data {*/
+    /*background-image: url("insights-icon.png");*/
+    /*background-color: rgba(243, 242, 242, 0.24);*/
+    /*background-size: 35px;*/
+    /*background-position: 4% center;*/
+    /*margin: 4% auto;*/
+    /*border: 1px solid #CCCCCC;*/
+    /*background-repeat: no-repeat;*/
+    /*opacity: 0.5;*/
+    /*max-width: 320px;*/
+/*}*/
+
+.insights-no-data p {
+    font-family: 'Open Sans';
+    padding: 5px 0 5px 65px;
+    font-size: 18px;
+    font-weight: 100;
+}

@@ -1,0 +1,18 @@
+.team-enter {
+    transform: scale(1.2);
+    transition: transform 0.2s cubic-bezier(.97,.84,.5,1.21);
+}
+.team-active {
+    transform: scale(1);
+}
+
+.team-leave {
+    transform: translateY(0);
+    opacity: 0;
+    transition: opacity 1.2s, transform 1s cubic-bezier(.52,-0.25,.52,.95);
+}
+
+.team-leave-active {
+    opacity: 0;
+    transform: translateY(-100%);
+}

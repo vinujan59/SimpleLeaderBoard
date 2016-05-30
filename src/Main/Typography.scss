@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  src: url(../../static/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  src: url(../../static/fonts/Raleway-Light.woff2);
+}
+
+/* line 13, ../../scss/base/Typography.scss */
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
